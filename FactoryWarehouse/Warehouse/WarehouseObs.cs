@@ -35,7 +35,7 @@ namespace FactoryWarehouse.Warehouse
         {
             while (_isRunning)
             {
-                Console.WriteLine($"\n[Монитор] Склад: {_warehouse.CurrentUsage}/{_warehouse.Capacity} " +
+                Console.WriteLine($"\n[Monitor] Warehouse: {_warehouse.CurrentUsage}/{_warehouse.Capacity} " +
                                 $"({100.0 * _warehouse.CurrentUsage / _warehouse.Capacity:F1}%)\n");
                 Thread.Sleep(5000);
             }
