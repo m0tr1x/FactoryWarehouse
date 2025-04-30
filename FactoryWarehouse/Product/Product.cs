@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using FactoryWarehouse.Interfaces;
 
-namespace FactoryWarehouse
+namespace FactoryWarehouse.Product
 {
     /// <summary>
     /// Impletmentation of IProduct
