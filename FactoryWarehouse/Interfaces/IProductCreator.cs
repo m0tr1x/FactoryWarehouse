@@ -8,5 +8,6 @@ namespace FactoryWarehouse.Interfaces
 {
     internal interface IProductCreator
     {
+        IProduct CreateProduct(string factoryName); // Method for creation product
     }
 }

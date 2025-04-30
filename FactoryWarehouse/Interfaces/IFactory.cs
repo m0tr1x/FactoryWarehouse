@@ -8,5 +8,9 @@ namespace FactoryWarehouse.Interfaces
 {
     internal interface IFactory
     {
+        string Name { get; } // Factory Name
+        int ProductPerHour { get; } // Production rate
+        void Start(); // Method for start
+        void Stop(); // Method for stop
     }
 }
